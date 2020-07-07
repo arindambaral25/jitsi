@@ -1,0 +1,184 @@
+Jul 07 07:17:46 general	info	Hello and welcome to Prosody version 0.10.0
+Jul 07 07:17:46 general	info	Prosody is using the select backend for connection handling
+Jul 07 07:17:46 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jul 07 07:17:46 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jul 07 07:17:46 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jul 07 07:17:46 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jul 07 07:17:46 mod_posix	info	Successfully daemonized to PID 21138
+Jul 07 07:17:46 c2s55b184a9e7b0	info	Client connected
+Jul 07 07:17:46 c2s55b184a9e7b0	info	Client disconnected: connection closed
+Jul 07 07:17:48 c2s55b184aa6d50	info	Client connected
+Jul 07 07:17:48 c2s55b184aa6d50	info	Client disconnected: connection closed
+Jul 07 07:17:50 mod_posix	warn	Received SIGTERM
+Jul 07 07:17:50 general	info	Shutting down: Received SIGTERM
+Jul 07 07:17:50 general	info	Shutting down...
+Jul 07 07:17:50 general	info	Shutdown status: Cleaning up
+Jul 07 07:17:50 general	info	Shutdown complete
+Jul 07 07:17:50 general	info	Hello and welcome to Prosody version 0.10.0
+Jul 07 07:17:50 general	info	Prosody is using the select backend for connection handling
+Jul 07 07:17:50 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jul 07 07:17:50 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jul 07 07:17:50 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jul 07 07:17:50 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jul 07 07:17:50 mod_posix	info	Successfully daemonized to PID 22637
+Jul 07 07:17:50 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Jul 07 07:17:50 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jul 07 07:17:50 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jul 07 07:17:50 portmanager	info	Activated service 'https' on no ports
+Jul 07 07:17:50 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Jul 07 07:17:50 conferenceduration.video.mentororg.in:conference_duration_component	warn	conference duration will not work with Prosody version 0.10 or less.
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conferenceduration.video.mentororg.in!
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conference.video.mentororg.in!
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host video.mentororg.in!
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host internal.auth.video.mentororg.in!
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host focus.video.mentororg.in!
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host localhost!
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host auth.video.mentororg.in!
+Jul 07 07:17:50 speakerstats.video.mentororg.in:speakerstats_component	warn	speaker stats will not work with Prosody version 0.10 or less.
+Jul 07 07:17:50 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host speakerstats.video.mentororg.in!
+Jul 07 07:17:51 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:17:51 c2s5576f2de10a0	info	Client connected
+Jul 07 07:17:52 c2s5576f2de10a0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:17:53 c2s5576f2de10a0	info	Authenticated as focus@auth.video.mentororg.in
+Jul 07 07:17:53 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:17:53 c2s5576f2e199d0	info	Client connected
+Jul 07 07:17:53 focus.video.mentororg.in:component	warn	Component not connected, bouncing error for: <iq id='GH3Ax-42' type='get' to='focus.video.mentororg.in' from='focus@auth.video.mentororg.in/focus1481185328579'>
+Jul 07 07:17:54 jcp5576f2e5a900	info	Incoming Jabber component connection
+Jul 07 07:17:54 focus.video.mentororg.in:component	info	External component successfully authenticated
+Jul 07 07:17:54 c2s5576f2e199d0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:17:54 c2s5576f2e199d0	info	Authenticated as jvb@auth.video.mentororg.in
+Jul 07 07:19:17 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:19:17 mod_bosh	info	New BOSH session, assigned it sid '47d4c8ec-bd64-43b0-b209-69369bf90e6a'
+Jul 07 07:19:18 bosh47d4c8ec-bd64-43b0-b209-69369bf90e6a	info	Authenticated as 580addfc-a712-4d57-beea-2079b07ff89d@video.mentororg.in
+Jul 07 07:19:29 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:19:29 mod_bosh	info	New BOSH session, assigned it sid '4b7929af-f0d9-476d-b0cf-5055caaff97b'
+Jul 07 07:19:29 bosh4b7929af-f0d9-476d-b0cf-5055caaff97b	info	Authenticated as 7cdf0639-ffc0-4199-b396-e6aea60b27ec@video.mentororg.in
+Jul 07 07:19:51 bosh47d4c8ec-bd64-43b0-b209-69369bf90e6a	info	BOSH client disconnected
+Jul 07 07:21:17 mod_posix	warn	Received SIGTERM
+Jul 07 07:21:17 general	info	Shutting down: Received SIGTERM
+Jul 07 07:21:17 c2s5576f2de10a0	info	Client disconnected: connection closed
+Jul 07 07:21:17 c2s5576f2e199d0	info	Client disconnected: connection closed
+Jul 07 07:21:17 jcp5576f2e5a900	info	component disconnected: focus.video.mentororg.in (false)
+Jul 07 07:21:17 general	info	Shutting down...
+Jul 07 07:21:17 general	info	Shutdown status: Cleaning up
+Jul 07 07:21:17 general	info	Shutdown complete
+Jul 07 07:21:17 general	info	Hello and welcome to Prosody version 0.10.0
+Jul 07 07:21:17 general	info	Prosody is using the select backend for connection handling
+Jul 07 07:21:17 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jul 07 07:21:17 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jul 07 07:21:17 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jul 07 07:21:17 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jul 07 07:21:17 mod_posix	info	Successfully daemonized to PID 25470
+Jul 07 07:21:17 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Jul 07 07:21:17 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jul 07 07:21:17 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jul 07 07:21:17 portmanager	info	Activated service 'https' on no ports
+Jul 07 07:21:17 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Jul 07 07:21:17 conferenceduration.video.mentororg.in:conference_duration_component	warn	conference duration will not work with Prosody version 0.10 or less.
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conferenceduration.video.mentororg.in!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conference.video.mentororg.in!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host video.mentororg.in!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host internal.auth.video.mentororg.in!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host focus.video.mentororg.in!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host localhost!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host auth.video.mentororg.in!
+Jul 07 07:21:17 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host speakerstats.video.mentororg.in!
+Jul 07 07:21:17 speakerstats.video.mentororg.in:speakerstats_component	warn	speaker stats will not work with Prosody version 0.10 or less.
+Jul 07 07:21:17 mod_bosh	info	Client tried to use sid '4b7929af-f0d9-476d-b0cf-5055caaff97b' which we don't know about
+Jul 07 07:21:23 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:21:23 c2s56362d30bda0	info	Client connected
+Jul 07 07:21:23 c2s56362d30bda0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:21:23 c2s56362d30bda0	info	Authenticated as jvb@auth.video.mentororg.in
+Jul 07 07:21:24 jcp56362d372520	info	Incoming Jabber component connection
+Jul 07 07:21:24 focus.video.mentororg.in:component	info	External component successfully authenticated
+Jul 07 07:21:25 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:21:25 c2s56362d37ba60	info	Client connected
+Jul 07 07:21:25 c2s56362d37ba60	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:21:25 c2s56362d37ba60	info	Authenticated as focus@auth.video.mentororg.in
+Jul 07 07:21:38 jcp56362d372520	info	component disconnected: focus.video.mentororg.in (false)
+Jul 07 07:21:39 c2s56362d37ba60	info	Client disconnected: closed
+Jul 07 07:21:39 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:21:39 c2s56362d45d7c0	info	Client connected
+Jul 07 07:21:40 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:21:40 mod_bosh	info	New BOSH session, assigned it sid 'acfed56a-6340-4eff-a9bc-24900749a32e'
+Jul 07 07:21:40 boshacfed56a-6340-4eff-a9bc-24900749a32e	info	Authenticated as bd10bb33-250c-4b25-b5fd-7bb7fced23e8@video.mentororg.in
+Jul 07 07:21:40 c2s56362d45d7c0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:21:40 c2s56362d45d7c0	info	Authenticated as focus@auth.video.mentororg.in
+Jul 07 07:21:41 focus.video.mentororg.in:component	warn	Component not connected, bouncing error for: <iq id='lPRLD-42' type='get' to='focus.video.mentororg.in' from='focus@auth.video.mentororg.in/focus1714452014467'>
+Jul 07 07:21:41 jcp56362d4d06a0	info	Incoming Jabber component connection
+Jul 07 07:21:41 focus.video.mentororg.in:component	info	External component successfully authenticated
+Jul 07 07:21:49 c2s56362d30bda0	info	Client disconnected: closed
+Jul 07 07:21:50 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:21:50 c2s56362d3300d0	info	Client connected
+Jul 07 07:21:51 c2s56362d3300d0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:21:51 c2s56362d3300d0	info	Authenticated as jvb@auth.video.mentororg.in
+Jul 07 07:22:17 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:22:17 mod_bosh	info	New BOSH session, assigned it sid '31d6aa45-d068-490a-8187-8a300c5ae992'
+Jul 07 07:22:18 bosh31d6aa45-d068-490a-8187-8a300c5ae992	info	Authenticated as c24f6d75-a052-45d5-bb83-c61993b3c085@video.mentororg.in
+Jul 07 07:22:36 bosh31d6aa45-d068-490a-8187-8a300c5ae992	info	BOSH client disconnected
+Jul 07 07:23:06 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:23:06 mod_bosh	info	New BOSH session, assigned it sid '0e69e5fe-d0d6-41e8-8a94-1bd53cbddb3b'
+Jul 07 07:23:07 bosh0e69e5fe-d0d6-41e8-8a94-1bd53cbddb3b	info	Authenticated as f0d1fc75-9952-4fd1-b60a-4fe8b8caf2e4@video.mentororg.in
+Jul 07 07:23:25 bosh0e69e5fe-d0d6-41e8-8a94-1bd53cbddb3b	info	BOSH client disconnected
+Jul 07 07:29:20 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:29:20 mod_bosh	info	New BOSH session, assigned it sid '01611d94-d1b8-4d5f-a9f0-81bcb38246d0'
+Jul 07 07:29:21 bosh01611d94-d1b8-4d5f-a9f0-81bcb38246d0	info	Authenticated as b9ecdc49-fd9f-469b-9443-af376d619af8@video.mentororg.in
+Jul 07 07:29:41 bosh01611d94-d1b8-4d5f-a9f0-81bcb38246d0	info	BOSH client disconnected
+Jul 07 07:35:24 mod_posix	warn	Received SIGTERM
+Jul 07 07:35:24 general	info	Shutting down: Received SIGTERM
+Jul 07 07:35:24 c2s56362d3300d0	info	Client disconnected: connection closed
+Jul 07 07:35:24 c2s56362d45d7c0	info	Client disconnected: connection closed
+Jul 07 07:35:24 jcp56362d4d06a0	info	component disconnected: focus.video.mentororg.in (false)
+Jul 07 07:35:24 general	info	Shutting down...
+Jul 07 07:35:24 general	info	Shutdown status: Cleaning up
+Jul 07 07:35:24 general	info	Shutdown complete
+Jul 07 07:35:24 general	info	Hello and welcome to Prosody version 0.10.0
+Jul 07 07:35:24 general	info	Prosody is using the select backend for connection handling
+Jul 07 07:35:24 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jul 07 07:35:24 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jul 07 07:35:24 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jul 07 07:35:24 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jul 07 07:35:24 mod_posix	info	Successfully daemonized to PID 26181
+Jul 07 07:35:24 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Jul 07 07:35:24 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jul 07 07:35:24 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jul 07 07:35:24 portmanager	info	Activated service 'https' on no ports
+Jul 07 07:35:24 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Jul 07 07:35:24 conferenceduration.video.mentororg.in:conference_duration_component	warn	conference duration will not work with Prosody version 0.10 or less.
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conferenceduration.video.mentororg.in!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conference.video.mentororg.in!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host video.mentororg.in!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host internal.auth.video.mentororg.in!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host focus.video.mentororg.in!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host localhost!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host auth.video.mentororg.in!
+Jul 07 07:35:24 conference.video.mentororg.in:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host speakerstats.video.mentororg.in!
+Jul 07 07:35:24 speakerstats.video.mentororg.in:speakerstats_component	warn	speaker stats will not work with Prosody version 0.10 or less.
+Jul 07 07:35:25 mod_bosh	info	Client tried to use sid 'acfed56a-6340-4eff-a9bc-24900749a32e' which we don't know about
+Jul 07 07:35:26 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:35:26 c2s55d590bc7980	info	Client connected
+Jul 07 07:35:26 c2s55d590bc7980	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:35:26 c2s55d590bc7980	info	Authenticated as jvb@auth.video.mentororg.in
+Jul 07 07:35:29 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:35:29 c2s55d590c2eec0	info	Client connected
+Jul 07 07:35:29 c2s55d590c2eec0	info	Client disconnected: connection closed
+Jul 07 07:35:30 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:35:30 c2s55d590c5e960	info	Client connected
+Jul 07 07:35:31 c2s55d590c5e960	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:35:31 c2s55d590c5e960	info	Authenticated as focus@auth.video.mentororg.in
+Jul 07 07:35:32 focus.video.mentororg.in:component	warn	Component not connected, bouncing error for: <iq id='RVOXq-43' type='get' to='focus.video.mentororg.in' from='focus@auth.video.mentororg.in/focus2545394630686'>
+Jul 07 07:35:32 jcp55d590cc5a30	info	Incoming Jabber component connection
+Jul 07 07:35:32 focus.video.mentororg.in:component	info	External component successfully authenticated
+Jul 07 07:35:34 c2s55d590bc7980	info	Client disconnected: closed
+Jul 07 07:35:35 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:35:35 c2s55d590cccd40	info	Client connected
+Jul 07 07:35:36 c2s55d590cccd40	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Jul 07 07:35:36 c2s55d590cccd40	info	Authenticated as jvb@auth.video.mentororg.in
+Jul 07 07:35:50 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:35:50 mod_bosh	info	New BOSH session, assigned it sid '36be4028-46f7-42a3-b581-2dfe31c920a4'
+Jul 07 07:35:50 bosh36be4028-46f7-42a3-b581-2dfe31c920a4	info	Authenticated as b92df440-9b2d-4dce-8b2c-0279c34c41fc@video.mentororg.in
+Jul 07 07:37:04 conference.video.mentororg.in:muc_domain_mapper	warn	Session filters applied
+Jul 07 07:37:04 mod_bosh	info	New BOSH session, assigned it sid 'bff738b8-a41f-4e35-a55c-e77e11d43748'
+Jul 07 07:37:04 boshbff738b8-a41f-4e35-a55c-e77e11d43748	info	Authenticated as 2c9a520e-718c-4bcc-b427-27604438d3db@video.mentororg.in
+Jul 07 07:37:26 bosh36be4028-46f7-42a3-b581-2dfe31c920a4	info	BOSH client disconnected
+Jul 07 07:37:33 boshbff738b8-a41f-4e35-a55c-e77e11d43748	info	BOSH client disconnected
